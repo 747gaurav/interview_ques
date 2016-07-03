@@ -2,10 +2,10 @@ package com.coviam;
 
 public class InitBlocks {
 
-	final int i ;
+	final static int i =1;
 	
 	static{
-		System.out.println();
+		System.out.println(i);
 	}
 	
 	{
